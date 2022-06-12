@@ -20,5 +20,6 @@ Para subir al repositorio de DockerHub, primero debemos iniciar sesion con el si
 ![image](https://user-images.githubusercontent.com/91737963/173253060-07f58a2a-2118-40e0-bd67-74f73a38a98f.png)  
 con el siguiente comando <code>docker images</code> podemos ver todas las imagenes que tenemos  
 ![image](https://user-images.githubusercontent.com/91737963/173253139-3b37bdca-7f50-48d4-a33d-efc386f4ff15.png)  
-Acontinuación selecciono una imagen y le pongo un TAG  donde una vez hecho esto para subir se usa el siguiente cmd <code>docker push</code> acompañado del nombre 
-![image](https://user-images.githubusercontent.com/91737963/173253372-748dbc65-a373-45a5-93b6-fe97bda9d6f9.png)
+Acontinuación selecciono una imagen y le pongo un TAG  donde una vez hecho esto para subir se usa el siguiente 
+cmd <code>docker push</code> acompañado del nombre.  
+![image](https://user-images.githubusercontent.com/91737963/173253372-748dbc65-a373-45a5-93b6-fe97bda9d6f9.png)  

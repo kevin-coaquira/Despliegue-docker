@@ -14,6 +14,11 @@ Acontinuación se puede ver que podimos acceder al phpMyAdmin:
 Con 'localhost:8082/LoginWebApp' nos lleva a la parte de Login:  
 ![image](https://user-images.githubusercontent.com/91737963/173251629-84b39fe2-5a04-4cd3-bc13-ca00a4a301c4.png)  
 Acontinuación se puede ver que pulsando el boton **Register Here** en la imagen anterior nos llevara a la zona de registro donde introduciremos nuestros datos y le daremos **Submit** una vez que ya este todo completado  
-![image](https://user-images.githubusercontent.com/91737963/173251660-e5208301-7adf-41a4-af99-426aa1b2156a.png)
-
-
+![image](https://user-images.githubusercontent.com/91737963/173251660-e5208301-7adf-41a4-af99-426aa1b2156a.png)  
+# DockerHub  
+Para subir al repositorio de DockerHub, primero debemos iniciar sesion con el siguiente cmd <code>docker login</code>, donde introduciremos nuestro username y la contraseña.  
+![image](https://user-images.githubusercontent.com/91737963/173253060-07f58a2a-2118-40e0-bd67-74f73a38a98f.png)  
+con el siguiente comando <code>docker images</code> podemos ver todas las imagenes que tenemos  
+![image](https://user-images.githubusercontent.com/91737963/173253139-3b37bdca-7f50-48d4-a33d-efc386f4ff15.png)  
+Acontinuación selecciono una imagen y le pongo un TAG  donde una vez hecho esto para subir se usa el siguiente cmd <code>docker push</code> acompañado del nombre 
+![image](https://user-images.githubusercontent.com/91737963/173253372-748dbc65-a373-45a5-93b6-fe97bda9d6f9.png)
